@@ -1,0 +1,50 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 35,
+  "ParticleLifeSpan": { "Min": 0.7, "Max": 1.2 },
+  "SpawnBurst": true,
+  "TotalParticles": { "Min": 20, "Max": 30 },
+  "EmitOffset": {
+    "X": { "Min": -0.5, "Max": 0.5 },
+    "Y": { "Min": 0.0, "Max": 0.3 },
+    "Z": { "Min": -0.5, "Max": 0.5 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 3.0, "Max": 6.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 50.0, "Max": 130.0 }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": { "X": 0.0, "Y": -14.0, "Z": 0.0 },
+      "DampingMultiplier": { "X": 0.8, "Y": 0.98, "Z": 0.8 }
+    }
+  ],
+  "ParticleCollision": {
+    "BlockType": "All",
+    "Action": "LastFrame"
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Debris/Chunk.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.08, "Max": 0.15 } },
+        "Opacity": 1.0,
+        "Color": "#A9A9A9"
+      },
+      "80": {
+        "Opacity": 1.0
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.08, "Max": 0.15 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 1.0
+    }
+  }
+}

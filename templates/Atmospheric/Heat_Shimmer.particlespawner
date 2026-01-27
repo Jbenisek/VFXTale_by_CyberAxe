@@ -1,0 +1,55 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 20,
+  "ParticleLifeSpan": { "Min": 1.5, "Max": 2.5 },
+  "SpawnRate": { "Min": 6.0, "Max": 10.0 },
+  "EmitOffset": {
+    "X": { "Min": -3.0, "Max": 3.0 },
+    "Y": { "Min": 0.0, "Max": 0.5 },
+    "Z": { "Min": -3.0, "Max": 3.0 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 0.5, "Max": 1.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 85.0, "Max": 95.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.95, "Y": 0.98, "Z": 0.95 }
+    }
+  ],
+  "UVMotion": {
+    "Texture": "Particles/Textures/UVMotion/FlowMapWave3.png",
+    "SpeedX": 0.5,
+    "SpeedY": 0.8,
+    "Strength": 3.0,
+    "Scale": 1.0
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.3, "Max": 0.5 } },
+        "Opacity": 0.0,
+        "Color": "#FFFFFF"
+      },
+      "20": {
+        "Scale": { "X": { "Min": 0.5, "Max": 0.8 } },
+        "Opacity": 0.03
+      },
+      "80": {
+        "Scale": { "X": { "Min": 0.8, "Max": 1.2 } },
+        "Opacity": 0.02
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.3, "Max": 0.5 } },
+      "Opacity": 0.0
+    }
+  }
+}

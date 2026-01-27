@@ -1,0 +1,53 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 80,
+  "ParticleLifeSpan": { "Min": 1.2, "Max": 1.8 },
+  "SpawnRate": { "Min": 25.0, "Max": 35.0 },
+  "LifeSpan": 4.0,
+  "EmitOffset": {
+    "X": { "Min": -2.0, "Max": 2.0 },
+    "Y": { "Min": 0.5, "Max": 2.0 },
+    "Z": { "Min": -2.0, "Max": 2.0 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 1.5, "Max": 3.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 60.0, "Max": 120.0 }
+  },
+  "Attractors": [
+    {
+      "RadialTangentAcceleration": 4.0,
+      "DampingMultiplier": { "X": 0.92, "Y": 0.85, "Z": 0.92 },
+      "LinearAcceleration": { "X": 0.0, "Y": -2.0, "Z": 0.0 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Nature/Leaf.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.06, "Max": 0.1 } },
+        "Opacity": 0.0,
+        "Color": "#228B22"
+      },
+      "15": {
+        "Opacity": 1.0,
+        "Color": "#32CD32"
+      },
+      "80": {
+        "Opacity": 0.8,
+        "Color": "#9ACD32"
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.06, "Max": 0.1 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.0
+    },
+    "UVOption": "RandomFlipU"
+  }
+}

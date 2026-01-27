@@ -1,0 +1,39 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 150,
+  "ParticleLifeSpan": { "Min": 0.3, "Max": 0.5 },
+  "SpawnRate": { "Min": 150.0, "Max": 250.0 },
+  "EmitOffset": {
+    "X": { "Min": -8.0, "Max": 8.0 },
+    "Y": { "Min": 8.0, "Max": 12.0 },
+    "Z": { "Min": -8.0, "Max": 8.0 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": -18.0, "Max": -28.0 },
+    "Yaw": { "Min": 85.0, "Max": 95.0 },
+    "Pitch": { "Min": 75.0, "Max": 85.0 }
+  },
+  "ParticleCollision": {
+    "BlockType": "All",
+    "Action": "Bounce"
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Sphere.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.02, "Max": 0.04 } },
+        "Opacity": 0.9,
+        "Color": "#E0FFFF"
+      },
+      "100": {
+        "Opacity": 0.7
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.02, "Max": 0.04 } },
+      "Opacity": 0.9
+    }
+  }
+}

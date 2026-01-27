@@ -1,0 +1,49 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 15,
+  "ParticleLifeSpan": { "Min": 4.0, "Max": 6.0 },
+  "SpawnRate": { "Min": 2.0, "Max": 4.0 },
+  "EmitOffset": {
+    "X": { "Min": -0.2, "Max": 0.2 },
+    "Y": { "Min": 0.01, "Max": 0.02 },
+    "Z": { "Min": -0.2, "Max": 0.2 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 0.03, "Max": 0.1 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 85.0, "Max": 95.0 }
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Liquid/Pool.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.15, "Max": 0.25 } },
+        "Opacity": 0.0,
+        "Color": "#1A1A1A"
+      },
+      "15": {
+        "Opacity": 0.7
+      },
+      "40": {
+        "Scale": { "X": { "Min": 0.4, "Max": 0.6 } },
+        "Opacity": 0.6,
+        "Color": "#2F2F4F"
+      },
+      "70": {
+        "Scale": { "X": { "Min": 0.6, "Max": 0.9 } },
+        "Opacity": 0.5,
+        "Color": "#1A1A1A"
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.15, "Max": 0.25 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.0
+    }
+  }
+}

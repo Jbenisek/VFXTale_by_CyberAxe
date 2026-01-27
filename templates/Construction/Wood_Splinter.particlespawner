@@ -1,0 +1,46 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 30,
+  "ParticleLifeSpan": { "Min": 0.6, "Max": 1.0 },
+  "SpawnBurst": true,
+  "TotalParticles": { "Min": 15, "Max": 25 },
+  "EmitOffset": {
+    "X": { "Min": -0.3, "Max": 0.3 },
+    "Y": { "Min": 0.0, "Max": 0.5 },
+    "Z": { "Min": -0.3, "Max": 0.3 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 4.0, "Max": 8.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 50.0, "Max": 130.0 }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": { "X": 0.0, "Y": -8.0, "Z": 0.0 },
+      "DampingMultiplier": { "X": 0.88, "Y": 0.95, "Z": 0.88 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Debris/Splinter.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.02, "Max": 0.04 }, "Y": { "Min": 0.08, "Max": 0.15 } },
+        "Opacity": 1.0,
+        "Color": "#8B4513"
+      },
+      "70": {
+        "Opacity": 0.9
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.02, "Max": 0.04 }, "Y": { "Min": 0.08, "Max": 0.15 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 1.0
+    }
+  }
+}

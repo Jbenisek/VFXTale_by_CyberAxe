@@ -1,0 +1,41 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 5,
+  "ParticleLifeSpan": { "Min": 0.6, "Max": 1.0 },
+  "SpawnBurst": true,
+  "TotalParticles": { "Min": 1, "Max": 1 },
+  "InitialVelocity": {
+    "Speed": { "Min": 2.0, "Max": 4.0 },
+    "Yaw": { "Min": 80.0, "Max": 100.0 },
+    "Pitch": { "Min": 60.0, "Max": 80.0 }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": { "X": 0.0, "Y": -9.0, "Z": 0.0 },
+      "DampingMultiplier": { "X": 0.9, "Y": 0.95, "Z": 0.9 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Cylinder.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.01, "Max": 0.015 }, "Y": { "Min": 0.02, "Max": 0.03 } },
+        "Opacity": 1.0,
+        "Color": "#B8860B"
+      },
+      "80": {
+        "Opacity": 0.9
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.01, "Max": 0.015 }, "Y": { "Min": 0.02, "Max": 0.03 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 1.0
+    }
+  }
+}

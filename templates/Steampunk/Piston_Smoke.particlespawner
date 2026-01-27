@@ -1,0 +1,47 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 20,
+  "ParticleLifeSpan": { "Min": 0.6, "Max": 1.0 },
+  "SpawnRate": { "Min": 5.0, "Max": 8.0 },
+  "EmitOffset": {
+    "X": { "Min": -0.1, "Max": 0.1 },
+    "Y": { "Min": 0.0, "Max": 0.1 },
+    "Z": { "Min": -0.1, "Max": 0.1 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 0.5, "Max": 1.2 },
+    "Yaw": { "Min": -30.0, "Max": 30.0 },
+    "Pitch": { "Min": 80.0, "Max": 100.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.92, "Y": 0.96, "Z": 0.92 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Smoke/Smoke_Wispy.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.08, "Max": 0.12 } },
+        "Opacity": 0.4,
+        "Color": "#696969"
+      },
+      "50": {
+        "Scale": { "X": { "Min": 0.15, "Max": 0.22 } },
+        "Opacity": 0.25,
+        "Color": "#A9A9A9"
+      },
+      "100": {
+        "Scale": { "X": { "Min": 0.25, "Max": 0.35 } },
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.08, "Max": 0.12 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.4
+    }
+  }
+}

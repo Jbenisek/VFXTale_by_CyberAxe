@@ -1,0 +1,53 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 80,
+  "ParticleLifeSpan": { "Min": 0.8, "Max": 1.5 },
+  "SpawnRate": { "Min": 15.0, "Max": 25.0 },
+  "EmitOffset": {
+    "X": { "Min": -15.0, "Max": 15.0 },
+    "Y": { "Min": 10.0, "Max": 15.0 },
+    "Z": { "Min": -15.0, "Max": 15.0 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 15.0, "Max": 25.0 },
+    "Yaw": { "Min": 40.0, "Max": 50.0 },
+    "Pitch": { "Min": 150.0, "Max": 170.0 }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": { "X": 0.0, "Y": -2.0, "Z": 0.0 },
+      "DampingMultiplier": { "X": 0.99, "Y": 0.99, "Z": 0.99 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Spark.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.1, "Max": 0.15 }, "Y": { "Min": 1.0, "Max": 1.5 } },
+        "Opacity": 1.0,
+        "Color": "#FFFFFF"
+      },
+      "20": {
+        "Color": "#FFFF00"
+      },
+      "50": {
+        "Opacity": 0.9,
+        "Color": "#FF7F00"
+      },
+      "80": {
+        "Opacity": 0.6,
+        "Color": "#FF4500"
+      },
+      "100": {
+        "Opacity": 0.0,
+        "Color": "#FF0000"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.1, "Max": 0.15 }, "Y": { "Min": 1.0, "Max": 1.5 } },
+      "Opacity": 1.0
+    }
+  }
+}

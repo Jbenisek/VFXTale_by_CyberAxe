@@ -1,0 +1,21 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "MaxConcurrentParticles": 50,
+  "ParticleLifeSpan": { "Min": 1.0, "Max": 1.5 },
+  "SpawnRate": { "Min": 20.0, "Max": 30.0 },
+  "LifeSpan": 5.0,
+  "EmitOffset": { "X": { "Min": 0.5, "Max": 1.0 }, "Y": { "Min": 0.0, "Max": 0.5 }, "Z": { "Min": 0.0, "Max": 0.0 } },
+  "Attractors": [{ "RadialAxis": { "X": 0.0, "Y": 1.0, "Z": 0.0 }, "RadialTangentAcceleration": 3.0, "RadialAcceleration": -0.5, "DampingMultiplier": { "X": 0.9, "Y": 0.95, "Z": 0.9 } }],
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": { "Scale": { "X": { "Min": 0.05, "Max": 0.08 } }, "Opacity": 0.0, "Color": "#00FF00" },
+      "20": { "Opacity": 1.0, "Color": "#7FFF00" },
+      "80": { "Opacity": 0.8, "Color": "#00FF7F" },
+      "100": { "Opacity": 0.0, "Color": "#00FFFF" }
+    },
+    "InitialAnimationFrame": { "Scale": { "X": { "Min": 0.05, "Max": 0.08 } }, "Opacity": 1.0 }
+  }
+}

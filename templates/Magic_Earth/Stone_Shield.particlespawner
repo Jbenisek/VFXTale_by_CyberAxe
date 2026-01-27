@@ -1,0 +1,46 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 30,
+  "ParticleLifeSpan": { "Min": 0.8, "Max": 1.2 },
+  "SpawnRate": { "Min": 15.0, "Max": 20.0 },
+  "LifeSpan": 3.0,
+  "EmitOffset": {
+    "X": { "Min": 0.6, "Max": 1.0 },
+    "Y": { "Min": 0.0, "Max": 1.5 },
+    "Z": { "Min": -0.3, "Max": 0.3 }
+  },
+  "Attractors": [
+    {
+      "RadialAcceleration": -3.0,
+      "DampingMultiplier": { "X": 0.4, "Y": 0.5, "Z": 0.4 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Rock.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.05, "Max": 0.1 } },
+        "Opacity": 0.0,
+        "Color": "#808080"
+      },
+      "30": {
+        "Scale": { "X": { "Min": 0.12, "Max": 0.18 } },
+        "Opacity": 1.0,
+        "Color": "#696969"
+      },
+      "90": {
+        "Opacity": 0.9
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.05, "Max": 0.1 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.0
+    }
+  }
+}

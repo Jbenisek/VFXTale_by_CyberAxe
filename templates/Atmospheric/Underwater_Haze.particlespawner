@@ -1,0 +1,50 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 30,
+  "ParticleLifeSpan": { "Min": 4.0, "Max": 6.0 },
+  "SpawnRate": { "Min": 4.0, "Max": 6.0 },
+  "EmitOffset": {
+    "X": { "Min": -5.0, "Max": 5.0 },
+    "Y": { "Min": -2.0, "Max": 2.0 },
+    "Z": { "Min": -5.0, "Max": 5.0 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 0.05, "Max": 0.15 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 70.0, "Max": 110.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.995, "Y": 0.997, "Z": 0.995 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Smoke/Fog.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 2.0, "Max": 3.5 } },
+        "Opacity": 0.0,
+        "Color": "#4682B4"
+      },
+      "20": {
+        "Scale": { "X": { "Min": 3.0, "Max": 4.5 } },
+        "Opacity": 0.1,
+        "Color": "#5F9EA0"
+      },
+      "80": {
+        "Scale": { "X": { "Min": 4.0, "Max": 6.0 } },
+        "Opacity": 0.06
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 2.0, "Max": 3.5 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.0
+    }
+  }
+}

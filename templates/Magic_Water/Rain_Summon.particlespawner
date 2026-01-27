@@ -1,0 +1,40 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 200,
+  "ParticleLifeSpan": { "Min": 0.3, "Max": 0.5 },
+  "SpawnRate": { "Min": 150.0, "Max": 200.0 },
+  "LifeSpan": 4.0,
+  "EmitOffset": {
+    "X": { "Min": -3.0, "Max": 3.0 },
+    "Y": { "Min": 4.0, "Max": 5.0 },
+    "Z": { "Min": -3.0, "Max": 3.0 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": -18.0, "Max": -25.0 },
+    "Yaw": { "Min": 90.0, "Max": 90.0 },
+    "Pitch": { "Min": 80.0, "Max": 85.0 }
+  },
+  "ParticleCollision": {
+    "BlockType": "All",
+    "Action": "LastFrame"
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Weather/Raindrop.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.02, "Max": 0.03 }, "Y": { "Min": 0.15, "Max": 0.25 } },
+        "Opacity": 0.6,
+        "Color": "#87CEEB"
+      },
+      "100": {
+        "Opacity": 0.4
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.02, "Max": 0.03 }, "Y": { "Min": 0.15, "Max": 0.25 } },
+      "Opacity": 0.6
+    }
+  }
+}

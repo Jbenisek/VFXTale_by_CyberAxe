@@ -1,0 +1,49 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 20,
+  "ParticleLifeSpan": { "Min": 0.4, "Max": 0.7 },
+  "SpawnRate": { "Min": 5.0, "Max": 8.0 },
+  "EmitOffset": {
+    "X": { "Min": -0.1, "Max": 0.1 },
+    "Y": { "Min": 0.0, "Max": 0.1 },
+    "Z": { "Min": -0.1, "Max": 0.1 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 0.5, "Max": 1.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 165.0, "Max": 180.0 }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": { "X": 0.0, "Y": -8.0, "Z": 0.0 },
+      "DampingMultiplier": { "X": 0.98, "Y": 0.99, "Z": 0.98 }
+    }
+  ],
+  "ParticleCollision": {
+    "BlockType": "All",
+    "Action": "LastFrame"
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Liquid/Drop.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.04, "Max": 0.06 }, "Y": { "Min": 0.08, "Max": 0.12 } },
+        "Opacity": 0.6,
+        "Color": "#ADD8E6"
+      },
+      "60": {
+        "Scale": { "X": { "Min": 0.03, "Max": 0.05 }, "Y": { "Min": 0.1, "Max": 0.15 } },
+        "Opacity": 0.5
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.04, "Max": 0.06 }, "Y": { "Min": 0.08, "Max": 0.12 } },
+      "Opacity": 0.6
+    }
+  }
+}

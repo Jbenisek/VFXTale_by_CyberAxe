@@ -1,0 +1,50 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 25,
+  "ParticleLifeSpan": { "Min": 0.8, "Max": 1.2 },
+  "SpawnRate": { "Min": 12.0, "Max": 16.0 },
+  "LifeSpan": 4.0,
+  "EmitOffset": {
+    "X": { "Min": -0.4, "Max": 0.4 },
+    "Y": { "Min": 0.0, "Max": 0.3 },
+    "Z": { "Min": -0.4, "Max": 0.4 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 0.2, "Max": 0.5 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 70.0, "Max": 90.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.95, "Y": 0.97, "Z": 0.95 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Smoke/Frost.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.15, "Max": 0.25 } },
+        "Opacity": 0.0,
+        "Color": "#B0E0E6"
+      },
+      "20": {
+        "Opacity": 0.4,
+        "Color": "#ADD8E6"
+      },
+      "80": {
+        "Scale": { "X": { "Min": 0.25, "Max": 0.35 } },
+        "Opacity": 0.3
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.15, "Max": 0.25 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.0
+    }
+  }
+}

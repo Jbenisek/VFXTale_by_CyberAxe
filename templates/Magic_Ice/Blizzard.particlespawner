@@ -1,0 +1,49 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 300,
+  "ParticleLifeSpan": { "Min": 0.6, "Max": 1.0 },
+  "SpawnRate": { "Min": 150.0, "Max": 200.0 },
+  "LifeSpan": 8.0,
+  "EmitOffset": {
+    "X": { "Min": -5.0, "Max": 5.0 },
+    "Y": { "Min": 3.0, "Max": 6.0 },
+    "Z": { "Min": -5.0, "Max": 5.0 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 3.0, "Max": 6.0 },
+    "Yaw": { "Min": -30.0, "Max": 30.0 },
+    "Pitch": { "Min": 150.0, "Max": 170.0 }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": { "X": 2.0, "Y": -4.0, "Z": 0.5 },
+      "DampingMultiplier": { "X": 0.9, "Y": 0.95, "Z": 0.9 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Weather/Snowflake.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.03, "Max": 0.06 } },
+        "Opacity": 0.0,
+        "Color": "#FFFFFF"
+      },
+      "20": {
+        "Opacity": 0.8
+      },
+      "80": {
+        "Opacity": 0.6
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.03, "Max": 0.06 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 25,
+  "ParticleLifeSpan": { "Min": 1.5, "Max": 2.5 },
+  "SpawnRate": { "Min": 8.0, "Max": 12.0 },
+  "LifeSpan": 4.0,
+  "EmitOffset": {
+    "X": { "Min": -0.8, "Max": 0.8 },
+    "Y": { "Min": 2.0, "Max": 3.0 },
+    "Z": { "Min": -0.8, "Max": 0.8 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 0.5, "Max": 1.5 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 100.0, "Max": 140.0 }
+  },
+  "Attractors": [
+    {
+      "RadialTangentAcceleration": 1.0,
+      "DampingMultiplier": { "X": 0.95, "Y": 0.9, "Z": 0.95 },
+      "LinearAcceleration": { "X": 0.0, "Y": -1.0, "Z": 0.0 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Nature/Feather.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.03, "Max": 0.05 }, "Y": { "Min": 0.08, "Max": 0.12 } },
+        "Opacity": 0.0,
+        "Color": "#FFFFFF"
+      },
+      "15": {
+        "Opacity": 1.0
+      },
+      "80": {
+        "Opacity": 0.8
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.03, "Max": 0.05 }, "Y": { "Min": 0.08, "Max": 0.12 } },
+      "Rotation": { "Z": { "Min": -30.0, "Max": 30.0 } },
+      "Opacity": 0.0
+    },
+    "UVOption": "RandomFlipU"
+  }
+}

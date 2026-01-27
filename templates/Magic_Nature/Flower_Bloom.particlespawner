@@ -1,0 +1,47 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 30,
+  "ParticleLifeSpan": { "Min": 1.0, "Max": 1.5 },
+  "SpawnBurst": true,
+  "TotalParticles": { "Min": 20, "Max": 30 },
+  "InitialVelocity": {
+    "Speed": { "Min": 1.0, "Max": 2.5 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 70.0, "Max": 110.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.9, "Y": 0.85, "Z": 0.9 },
+      "LinearAcceleration": { "X": 0.0, "Y": -1.5, "Z": 0.0 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Nature/Petal.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.04, "Max": 0.07 } },
+        "Opacity": 0.0,
+        "Color": "#FF69B4"
+      },
+      "20": {
+        "Scale": { "X": { "Min": 0.06, "Max": 0.1 } },
+        "Opacity": 1.0,
+        "Color": "#FFB6C1"
+      },
+      "80": {
+        "Opacity": 0.7
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.04, "Max": 0.07 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.0
+    },
+    "UVOption": "RandomFlipU"
+  }
+}

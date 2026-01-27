@@ -1,0 +1,41 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 40,
+  "ParticleLifeSpan": { "Min": 0.3, "Max": 0.5 },
+  "SpawnBurst": true,
+  "TotalParticles": { "Min": 25, "Max": 35 },
+  "InitialVelocity": {
+    "Speed": { "Min": 8.0, "Max": 14.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 60.0, "Max": 100.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.7, "Y": 0.75, "Z": 0.7 },
+      "LinearAcceleration": { "X": 0.0, "Y": -8.0, "Z": 0.0 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Nature/Thorn.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.02, "Max": 0.03 }, "Y": { "Min": 0.08, "Max": 0.12 } },
+        "Opacity": 1.0,
+        "Color": "#2E8B57"
+      },
+      "60": {
+        "Opacity": 0.8,
+        "Color": "#3CB371"
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.02, "Max": 0.03 }, "Y": { "Min": 0.08, "Max": 0.12 } },
+      "Opacity": 1.0
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 25,
+  "ParticleLifeSpan": { "Min": 0.25, "Max": 0.35 },
+  "SpawnRate": { "Min": 40.0, "Max": 50.0 },
+  "LifeSpan": 2.0,
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "Particle": {
+    "Texture": "Particles/Textures/Ice/Shard.png",
+    "ScaleRatioConstraint": "None",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.04, "Max": 0.06 }, "Y": { "Min": 0.1, "Max": 0.15 } },
+        "Opacity": 0.9,
+        "Color": "#ADD8E6"
+      },
+      "100": {
+        "Opacity": 0.0,
+        "Color": "#FFFFFF"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.04, "Max": 0.06 }, "Y": { "Min": 0.1, "Max": 0.15 } },
+      "Opacity": 0.9
+    }
+  }
+}

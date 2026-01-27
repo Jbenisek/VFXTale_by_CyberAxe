@@ -1,0 +1,41 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "MaxConcurrentParticles": 30,
+  "ParticleLifeSpan": { "Min": 0.25, "Max": 0.4 },
+  "SpawnBurst": true,
+  "TotalParticles": { "Min": 20, "Max": 30 },
+  "InitialVelocity": {
+    "Speed": { "Min": 3.0, "Max": 6.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 50.0, "Max": 90.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.85, "Y": 0.9, "Z": 0.85 },
+      "LinearAcceleration": { "X": 0.0, "Y": -8.0, "Z": 0.0 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Liquid/Droplet.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.03, "Max": 0.06 } },
+        "Opacity": 0.8,
+        "Color": "#87CEEB"
+      },
+      "60": {
+        "Opacity": 0.5,
+        "Color": "#ADD8E6"
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.03, "Max": 0.06 } },
+      "Opacity": 0.8
+    }
+  }
+}

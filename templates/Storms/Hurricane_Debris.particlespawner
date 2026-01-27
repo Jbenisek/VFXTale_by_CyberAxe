@@ -1,0 +1,49 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 80,
+  "ParticleLifeSpan": { "Min": 1.5, "Max": 2.5 },
+  "SpawnRate": { "Min": 25.0, "Max": 40.0 },
+  "EmitOffset": {
+    "X": { "Min": -8.0, "Max": 8.0 },
+    "Y": { "Min": 0.5, "Max": 4.0 },
+    "Z": { "Min": -8.0, "Max": 8.0 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 8.0, "Max": 15.0 },
+    "Yaw": { "Min": 75.0, "Max": 105.0 },
+    "Pitch": { "Min": 80.0, "Max": 110.0 }
+  },
+  "Attractors": [
+    {
+      "RadialTangentAcceleration": 5.0,
+      "LinearAcceleration": { "X": 0.0, "Y": -2.0, "Z": 0.0 },
+      "DampingMultiplier": { "X": 0.9, "Y": 0.95, "Z": 0.9 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Rock.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.03, "Max": 0.08 } },
+        "Opacity": 0.0,
+        "Color": "#696969"
+      },
+      "15": {
+        "Opacity": 0.9
+      },
+      "85": {
+        "Opacity": 0.7
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.03, "Max": 0.08 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.0
+    }
+  }
+}

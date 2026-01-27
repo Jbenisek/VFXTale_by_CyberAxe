@@ -1,0 +1,31 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 30,
+  "ParticleLifeSpan": { "Min": 0.1, "Max": 0.15 },
+  "SpawnRate": { "Min": 80.0, "Max": 100.0 },
+  "LifeSpan": 0.3,
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Streak.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.02, "Max": 0.03 }, "Y": { "Min": 0.15, "Max": 0.25 } },
+        "Opacity": 0.8,
+        "Color": "#FFFFFF"
+      },
+      "50": {
+        "Opacity": 0.4,
+        "Color": "#AAAAFF"
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.02, "Max": 0.03 }, "Y": { "Min": 0.15, "Max": 0.25 } },
+      "Opacity": 0.8
+    }
+  }
+}

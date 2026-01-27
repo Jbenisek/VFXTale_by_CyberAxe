@@ -1,0 +1,50 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 50,
+  "ParticleLifeSpan": { "Min": 0.5, "Max": 0.9 },
+  "SpawnBurst": true,
+  "TotalParticles": { "Min": 30, "Max": 50 },
+  "EmitOffset": {
+    "X": { "Min": -0.4, "Max": 0.4 },
+    "Y": { "Min": 0.0, "Max": 0.5 },
+    "Z": { "Min": -0.4, "Max": 0.4 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 5.0, "Max": 10.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 40.0, "Max": 140.0 }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": { "X": 0.0, "Y": -10.0, "Z": 0.0 },
+      "DampingMultiplier": { "X": 0.9, "Y": 0.98, "Z": 0.9 }
+    }
+  ],
+  "ParticleCollision": {
+    "BlockType": "All",
+    "Action": "Expire"
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Debris/Shard.png",
+    "ScaleRatioConstraint": "None",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.03, "Max": 0.06 }, "Y": { "Min": 0.04, "Max": 0.08 } },
+        "Opacity": 0.7,
+        "Color": "#E0FFFF"
+      },
+      "50": {
+        "Opacity": 0.6
+      },
+      "100": {
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.03, "Max": 0.06 }, "Y": { "Min": 0.04, "Max": 0.08 } },
+      "Rotation": { "Z": { "Min": 0.0, "Max": 360.0 } },
+      "Opacity": 0.7
+    }
+  }
+}

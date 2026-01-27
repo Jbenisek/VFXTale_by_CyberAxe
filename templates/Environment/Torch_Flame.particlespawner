@@ -1,0 +1,48 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "BillboardY",
+  "MaxConcurrentParticles": 20,
+  "ParticleLifeSpan": { "Min": 0.25, "Max": 0.4 },
+  "SpawnRate": { "Min": 15.0, "Max": 20.0 },
+  "EmitOffset": {
+    "X": { "Min": -0.05, "Max": 0.05 },
+    "Y": { "Min": 0.0, "Max": 0.1 },
+    "Z": { "Min": -0.05, "Max": 0.05 }
+  },
+  "InitialVelocity": {
+    "Speed": { "Min": 0.8, "Max": 1.5 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 80.0, "Max": 90.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.85, "Y": 0.95, "Z": 0.85 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Fire/Flame.png",
+    "FrameSize": { "Width": 32, "Height": 32 },
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "FrameIndex": { "Min": 0, "Max": 1 },
+        "Scale": { "X": { "Min": 0.06, "Max": 0.1 } },
+        "Opacity": 0.0,
+        "Color": "#FFFF00"
+      },
+      "20": {
+        "Opacity": 0.9,
+        "Color": "#FF7F00"
+      },
+      "100": {
+        "FrameIndex": { "Min": 2, "Max": 3 },
+        "Opacity": 0.0,
+        "Color": "#FF4500"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.06, "Max": 0.1 } },
+      "Opacity": 0.0
+    }
+  }
+}

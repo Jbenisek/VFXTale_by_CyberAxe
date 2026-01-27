@@ -1,0 +1,42 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 20,
+  "ParticleLifeSpan": { "Min": 0.5, "Max": 0.7 },
+  "SpawnBurst": true,
+  "TotalParticles": { "Min": 15, "Max": 20 },
+  "InitialVelocity": {
+    "Speed": { "Min": 3.0, "Max": 6.0 },
+    "Yaw": { "Min": 0.0, "Max": 360.0 },
+    "Pitch": { "Min": 80.0, "Max": 100.0 }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": { "X": 0.85, "Y": 0.9, "Z": 0.85 }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": { "X": { "Min": 0.08, "Max": 0.12 } },
+        "Opacity": 1.0,
+        "Color": "#FFFFFF"
+      },
+      "30": {
+        "Scale": { "X": { "Min": 0.2, "Max": 0.3 } },
+        "Opacity": 0.8,
+        "Color": "#FFFAF0"
+      },
+      "100": {
+        "Scale": { "X": { "Min": 0.4, "Max": 0.5 } },
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": { "X": { "Min": 0.08, "Max": 0.12 } },
+      "Opacity": 1.0
+    }
+  }
+}
