@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Nature/Petal.png",
+    "Texture": "Particles/Textures/Nature/VFXTale_Petal.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

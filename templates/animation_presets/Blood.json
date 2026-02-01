@@ -1,0 +1,12 @@
+{
+  "name": "Blood",
+  "keyframes": {
+    "0": { "Color": "#FF2222", "Opacity": 0.0, "Scale": { "X": { "Min": 0.15, "Max": 0.3 }, "Y": { "Min": 0.15, "Max": 0.3 } } },
+    "8": { "Color": "#EE1111", "Opacity": 1.0, "Scale": { "X": { "Min": 0.8, "Max": 1.1 }, "Y": { "Min": 0.8, "Max": 1.1 } } },
+    "25": { "Color": "#CC0000" },
+    "45": { "Color": "#AA0000", "Opacity": 0.85, "Scale": { "X": { "Min": 1.0, "Max": 1.25 }, "Y": { "Min": 1.0, "Max": 1.25 } } },
+    "65": { "Color": "#880000", "Opacity": 0.6 },
+    "82": { "Color": "#550000", "Opacity": 0.3 },
+    "100": { "Color": "#330000", "Opacity": 0.0 }
+  }
+}

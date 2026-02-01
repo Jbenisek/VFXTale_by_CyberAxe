@@ -1,0 +1,10 @@
+{
+  "name": "Spin",
+  "keyframes": {
+    "0": { "Rotation": { "Z": { "Min": 0.0, "Max": 0.0 } }, "Opacity": 0.0 },
+    "10": { "Opacity": 1.0 },
+    "50": { "Rotation": { "Z": { "Min": 160.0, "Max": 200.0 } } },
+    "90": { "Opacity": 1.0 },
+    "100": { "Rotation": { "Z": { "Min": 340.0, "Max": 380.0 } }, "Opacity": 0.0 }
+  }
+}

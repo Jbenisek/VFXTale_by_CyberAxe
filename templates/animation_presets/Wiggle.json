@@ -1,0 +1,14 @@
+{
+  "name": "Wiggle",
+  "keyframes": {
+    "0": { "Rotation": { "Z": { "Min": -25.0, "Max": -18.0 } }, "Scale": { "X": { "Min": 0.98, "Max": 1.02 }, "Y": { "Min": 0.98, "Max": 1.02 } } },
+    "12": { "Rotation": { "Z": { "Min": 20.0, "Max": 28.0 } } },
+    "25": { "Rotation": { "Z": { "Min": -22.0, "Max": -15.0 } } },
+    "38": { "Rotation": { "Z": { "Min": 18.0, "Max": 25.0 } } },
+    "50": { "Rotation": { "Z": { "Min": -20.0, "Max": -12.0 } } },
+    "62": { "Rotation": { "Z": { "Min": 15.0, "Max": 22.0 } } },
+    "75": { "Rotation": { "Z": { "Min": -18.0, "Max": -10.0 } } },
+    "88": { "Rotation": { "Z": { "Min": 10.0, "Max": 16.0 } } },
+    "100": { "Rotation": { "Z": { "Min": -8.0, "Max": 8.0 } } }
+  }
+}

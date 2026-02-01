@@ -1,0 +1,10 @@
+{
+  "name": "Spin Fast",
+  "keyframes": {
+    "0": { "Rotation": { "Z": { "Min": 0.0, "Max": 0.0 } }, "Scale": { "X": { "Min": 0.9, "Max": 1.1 }, "Y": { "Min": 0.9, "Max": 1.1 } } },
+    "25": { "Rotation": { "Z": { "Min": 330.0, "Max": 390.0 } } },
+    "50": { "Rotation": { "Z": { "Min": 680.0, "Max": 760.0 } } },
+    "75": { "Rotation": { "Z": { "Min": 1020.0, "Max": 1140.0 } } },
+    "100": { "Rotation": { "Z": { "Min": 1380.0, "Max": 1500.0 } }, "Opacity": 0.0 }
+  }
+}

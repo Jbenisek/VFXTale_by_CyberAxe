@@ -15,7 +15,7 @@
     "Pitch": { "Min": 85.0, "Max": 95.0 }
   },
   "Particle": {
-    "Texture": "Particles/Textures/Liquid/Pool.png",
+    "Texture": "Particles/Textures/Liquid/VFXTale_Pool.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

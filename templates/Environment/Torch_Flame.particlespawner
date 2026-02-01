@@ -20,7 +20,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Fire/Flame.png",
+    "Texture": "Particles/Textures/Fire/VFXTale_Flame.png",
     "FrameSize": { "Width": 32, "Height": 32 },
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {

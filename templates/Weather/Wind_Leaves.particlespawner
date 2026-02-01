@@ -22,7 +22,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Nature/Leaf.png",
+    "Texture": "Particles/Textures/Nature/VFXTale_Leaf.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

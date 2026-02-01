@@ -19,7 +19,7 @@
     "Action": "Bounce"
   },
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Sphere.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Sphere.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

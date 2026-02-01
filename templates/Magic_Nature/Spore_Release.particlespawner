@@ -22,7 +22,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Nature/Spore.png",
+    "Texture": "Particles/Textures/Nature/VFXTale_Spore.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

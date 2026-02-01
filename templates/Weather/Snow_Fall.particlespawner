@@ -21,7 +21,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Weather/Snowflake.png",
+    "Texture": "Particles/Textures/Weather/VFXTale_Snowflake.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

@@ -21,7 +21,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Nature/Vine.png",
+    "Texture": "Particles/Textures/Nature/VFXTale_Vine.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

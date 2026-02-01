@@ -21,7 +21,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Ice/Icicle.png",
+    "Texture": "Particles/Textures/Ice/VFXTale_Icicle.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

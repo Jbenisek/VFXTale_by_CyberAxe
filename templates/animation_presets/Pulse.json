@@ -1,0 +1,12 @@
+{
+  "name": "Pulse",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.9, "Max": 1.0 }, "Y": { "Min": 0.9, "Max": 1.0 } }, "Opacity": 0.8 },
+    "15": { "Scale": { "X": { "Min": 1.2, "Max": 1.4 }, "Y": { "Min": 1.2, "Max": 1.4 } }, "Opacity": 1.0 },
+    "30": { "Scale": { "X": { "Min": 0.85, "Max": 0.95 }, "Y": { "Min": 0.85, "Max": 0.95 } }, "Opacity": 0.6 },
+    "50": { "Scale": { "X": { "Min": 1.15, "Max": 1.35 }, "Y": { "Min": 1.15, "Max": 1.35 } }, "Opacity": 1.0 },
+    "65": { "Scale": { "X": { "Min": 0.9, "Max": 1.0 }, "Y": { "Min": 0.9, "Max": 1.0 } }, "Opacity": 0.65 },
+    "80": { "Scale": { "X": { "Min": 1.1, "Max": 1.25 }, "Y": { "Min": 1.1, "Max": 1.25 } }, "Opacity": 0.9 },
+    "100": { "Scale": { "X": { "Min": 0.9, "Max": 1.0 }, "Y": { "Min": 0.9, "Max": 1.0 } }, "Opacity": 0.4 }
+  }
+}

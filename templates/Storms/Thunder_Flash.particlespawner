@@ -11,7 +11,7 @@
     "Z": { "Min": -5.0, "Max": 5.0 }
   },
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Glow.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Glow.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

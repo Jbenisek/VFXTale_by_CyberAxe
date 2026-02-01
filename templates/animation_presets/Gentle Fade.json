@@ -1,0 +1,11 @@
+{
+  "name": "Gentle Fade",
+  "keyframes": {
+    "0": { "Opacity": 0.0 },
+    "20": { "Opacity": 0.35 },
+    "40": { "Opacity": 0.55 },
+    "60": { "Opacity": 0.55 },
+    "80": { "Opacity": 0.3 },
+    "100": { "Opacity": 0.0 }
+  }
+}

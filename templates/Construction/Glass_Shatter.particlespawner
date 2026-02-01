@@ -26,7 +26,7 @@
     "Action": "Expire"
   },
   "Particle": {
-    "Texture": "Particles/Textures/Debris/Shard.png",
+    "Texture": "Particles/Textures/Debris/VFXTale_Shard.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

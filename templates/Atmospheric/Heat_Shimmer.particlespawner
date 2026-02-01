@@ -20,14 +20,14 @@
     }
   ],
   "UVMotion": {
-    "Texture": "Particles/Textures/UVMotion/FlowMapWave3.png",
+    "Texture": "Particles/Textures/UVMotion/VFXTale_FlowMapWave3.png",
     "SpeedX": 0.5,
     "SpeedY": 0.8,
     "Strength": 3.0,
     "Scale": 1.0
   },
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Glow.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Glow.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

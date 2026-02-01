@@ -20,7 +20,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Smoke/Steam.png",
+    "Texture": "Particles/Textures/Smoke/VFXTale_Steam.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

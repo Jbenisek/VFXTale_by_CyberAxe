@@ -1,0 +1,16 @@
+{
+  "name": "Electric",
+  "keyframes": {
+    "0": { "Opacity": 0.0, "Color": "#FFFFFF", "Scale": { "X": { "Min": 0.8, "Max": 1.0 }, "Y": { "Min": 0.8, "Max": 1.0 } } },
+    "5": { "Opacity": 1.0, "Color": "#FFFFFF", "Scale": { "X": { "Min": 1.1, "Max": 1.3 }, "Y": { "Min": 1.1, "Max": 1.3 } } },
+    "12": { "Opacity": 0.1, "Color": "#6699FF", "Scale": { "X": { "Min": 0.85, "Max": 0.95 }, "Y": { "Min": 0.85, "Max": 0.95 } } },
+    "18": { "Opacity": 0.95, "Color": "#EEEEFF", "Scale": { "X": { "Min": 1.15, "Max": 1.35 }, "Y": { "Min": 1.15, "Max": 1.35 } } },
+    "25": { "Opacity": 0.05, "Color": "#4477DD" },
+    "32": { "Opacity": 1.0, "Color": "#FFFFFF", "Scale": { "X": { "Min": 1.05, "Max": 1.2 }, "Y": { "Min": 1.05, "Max": 1.2 } } },
+    "45": { "Opacity": 0.15, "Color": "#5588EE" },
+    "55": { "Opacity": 0.8, "Color": "#BBDDFF" },
+    "70": { "Opacity": 0.4, "Color": "#6699DD" },
+    "85": { "Opacity": 0.15, "Color": "#3355AA", "Scale": { "X": { "Min": 0.6, "Max": 0.8 }, "Y": { "Min": 0.6, "Max": 0.8 } } },
+    "100": { "Opacity": 0.0, "Color": "#223388" }
+  }
+}

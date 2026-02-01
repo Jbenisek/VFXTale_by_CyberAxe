@@ -1,0 +1,11 @@
+{
+  "name": "Tumble",
+  "keyframes": {
+    "0": { "Rotation": { "Z": { "Min": -45.0, "Max": 45.0 } }, "Opacity": 0.0, "Scale": { "X": { "Min": 0.8, "Max": 1.2 }, "Y": { "Min": 0.8, "Max": 1.2 } } },
+    "10": { "Opacity": 1.0 },
+    "30": { "Rotation": { "Z": { "Min": 80.0, "Max": 200.0 } } },
+    "60": { "Rotation": { "Z": { "Min": 220.0, "Max": 400.0 } } },
+    "85": { "Opacity": 0.8 },
+    "100": { "Rotation": { "Z": { "Min": 400.0, "Max": 600.0 } }, "Opacity": 0.0 }
+  }
+}

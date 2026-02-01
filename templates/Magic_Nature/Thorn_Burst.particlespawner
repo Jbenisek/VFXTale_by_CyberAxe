@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Nature/Thorn.png",
+    "Texture": "Particles/Textures/Nature/VFXTale_Thorn.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

@@ -1,0 +1,12 @@
+{
+  "name": "Ice Colors",
+  "keyframes": {
+    "0": { "Color": "#FFFFFF", "Opacity": 0.0, "Scale": { "X": { "Min": 0.4, "Max": 0.6 }, "Y": { "Min": 0.4, "Max": 0.6 } } },
+    "12": { "Color": "#EEEEFF", "Opacity": 0.9, "Scale": { "X": { "Min": 0.7, "Max": 0.9 }, "Y": { "Min": 0.7, "Max": 0.9 } } },
+    "30": { "Color": "#BBDDFF", "Opacity": 1.0 },
+    "50": { "Color": "#88BBFF", "Scale": { "X": { "Min": 0.9, "Max": 1.1 }, "Y": { "Min": 0.9, "Max": 1.1 } } },
+    "70": { "Color": "#5599EE" },
+    "85": { "Color": "#3366CC", "Opacity": 0.5 },
+    "100": { "Color": "#224488", "Opacity": 0.0 }
+  }
+}

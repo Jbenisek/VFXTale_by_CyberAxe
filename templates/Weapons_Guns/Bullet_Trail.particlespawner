@@ -7,7 +7,7 @@
   "LifeSpan": 0.3,
   "TrailSpawnerPositionMultiplier": 1.0,
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Glow.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Glow.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

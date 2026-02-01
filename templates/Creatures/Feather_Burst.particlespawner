@@ -23,7 +23,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Nature/Feather.png",
+    "Texture": "Particles/Textures/Nature/VFXTale_Feather.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

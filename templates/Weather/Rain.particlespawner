@@ -16,7 +16,7 @@
     "Pitch": { "Min": 170.0, "Max": 180.0 }
   },
   "Particle": {
-    "Texture": "Particles/Textures/Weather/Raindrop.png",
+    "Texture": "Particles/Textures/Weather/VFXTale_Raindrop.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": { "Scale": { "X": { "Min": 0.02, "Max": 0.03 }, "Y": { "Min": 0.3, "Max": 0.5 } }, "Opacity": 0.0, "Color": "#87CEEB" },

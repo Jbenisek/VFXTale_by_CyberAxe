@@ -20,7 +20,7 @@
     "Action": "LastFrame"
   },
   "Particle": {
-    "Texture": "Particles/Textures/Weather/Raindrop.png",
+    "Texture": "Particles/Textures/Weather/VFXTale_Raindrop.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

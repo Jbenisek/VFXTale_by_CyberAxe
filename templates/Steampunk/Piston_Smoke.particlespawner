@@ -20,7 +20,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Smoke/Smoke_Wispy.png",
+    "Texture": "Particles/Textures/Smoke/VFXTale_Smoke_Wispy.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

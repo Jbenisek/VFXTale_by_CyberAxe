@@ -16,7 +16,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Hexagon.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Hexagon.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

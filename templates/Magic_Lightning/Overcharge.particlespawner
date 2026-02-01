@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Glow.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Glow.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

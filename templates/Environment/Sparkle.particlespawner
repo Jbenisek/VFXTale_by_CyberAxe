@@ -13,7 +13,7 @@
   "EmitOffset": { "X": { "Min": -1.0, "Max": 1.0 }, "Y": { "Min": 0.0, "Max": 2.0 }, "Z": { "Min": -1.0, "Max": 1.0 } },
   "Attractors": [{ "DampingMultiplier": { "X": 0.95, "Y": 0.95, "Z": 0.95 } }],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Glow.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Glow.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": { "Scale": { "X": { "Min": 0.02, "Max": 0.05 } }, "Opacity": 0.0, "Color": "#FFFFFF" },

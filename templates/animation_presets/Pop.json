@@ -1,0 +1,12 @@
+{
+  "name": "Pop",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.0, "Max": 0.0 }, "Y": { "Min": 0.0, "Max": 0.0 } }, "Opacity": 0.0 },
+    "8": { "Scale": { "X": { "Min": 1.3, "Max": 1.5 }, "Y": { "Min": 1.3, "Max": 1.5 } }, "Opacity": 1.0 },
+    "18": { "Scale": { "X": { "Min": 0.9, "Max": 1.0 }, "Y": { "Min": 0.9, "Max": 1.0 } }, "Opacity": 1.0 },
+    "22": { "Scale": { "X": { "Min": 1.0, "Max": 1.1 }, "Y": { "Min": 1.0, "Max": 1.1 } } },
+    "75": { "Scale": { "X": { "Min": 0.95, "Max": 1.05 }, "Y": { "Min": 0.95, "Max": 1.05 } }, "Opacity": 1.0 },
+    "92": { "Opacity": 0.4 },
+    "100": { "Scale": { "X": { "Min": 0.0, "Max": 0.0 }, "Y": { "Min": 0.0, "Max": 0.0 } }, "Opacity": 0.0 }
+  }
+}

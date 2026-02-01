@@ -25,7 +25,7 @@
     "Action": "LastFrame"
   },
   "Particle": {
-    "Texture": "Particles/Textures/Liquid/Drop.png",
+    "Texture": "Particles/Textures/Liquid/VFXTale_Drop.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

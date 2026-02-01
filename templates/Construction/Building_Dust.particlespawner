@@ -21,7 +21,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Smoke/Dust.png",
+    "Texture": "Particles/Textures/Smoke/VFXTale_Dust.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

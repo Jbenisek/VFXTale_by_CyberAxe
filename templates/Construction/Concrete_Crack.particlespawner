@@ -26,7 +26,7 @@
     "Action": "LastFrame"
   },
   "Particle": {
-    "Texture": "Particles/Textures/Debris/Chunk.png",
+    "Texture": "Particles/Textures/Debris/VFXTale_Chunk.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

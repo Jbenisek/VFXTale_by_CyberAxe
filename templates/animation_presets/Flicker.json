@@ -1,0 +1,16 @@
+{
+  "name": "Flicker",
+  "keyframes": {
+    "0": { "Opacity": 0.9, "Scale": { "X": { "Min": 0.95, "Max": 1.05 }, "Y": { "Min": 0.95, "Max": 1.05 } } },
+    "8": { "Opacity": 0.12, "Scale": { "X": { "Min": 0.9, "Max": 0.98 }, "Y": { "Min": 0.9, "Max": 0.98 } } },
+    "16": { "Opacity": 1.0, "Scale": { "X": { "Min": 1.0, "Max": 1.08 }, "Y": { "Min": 1.0, "Max": 1.08 } } },
+    "26": { "Opacity": 0.08 },
+    "38": { "Opacity": 0.85, "Scale": { "X": { "Min": 0.98, "Max": 1.06 }, "Y": { "Min": 0.98, "Max": 1.06 } } },
+    "48": { "Opacity": 0.15 },
+    "58": { "Opacity": 0.92 },
+    "72": { "Opacity": 0.25 },
+    "82": { "Opacity": 0.7 },
+    "92": { "Opacity": 0.3 },
+    "100": { "Opacity": 0.0 }
+  }
+}

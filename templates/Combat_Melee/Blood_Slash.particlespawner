@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Droplet.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Droplet.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

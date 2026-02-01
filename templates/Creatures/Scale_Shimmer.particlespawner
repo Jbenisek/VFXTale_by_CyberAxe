@@ -15,7 +15,7 @@
     "Pitch": { "Min": 70.0, "Max": 110.0 }
   },
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Spark.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Spark.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

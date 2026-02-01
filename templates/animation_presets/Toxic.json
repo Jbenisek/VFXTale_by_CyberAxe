@@ -1,0 +1,13 @@
+{
+  "name": "Toxic",
+  "keyframes": {
+    "0": { "Color": "#BBFF22", "Opacity": 0.0, "Scale": { "X": { "Min": 0.2, "Max": 0.35 }, "Y": { "Min": 0.2, "Max": 0.35 } } },
+    "10": { "Color": "#99EE11", "Opacity": 0.9, "Scale": { "X": { "Min": 0.6, "Max": 0.8 }, "Y": { "Min": 0.6, "Max": 0.8 } } },
+    "25": { "Color": "#77DD00", "Opacity": 1.0 },
+    "40": { "Color": "#55BB22", "Scale": { "X": { "Min": 0.9, "Max": 1.15 }, "Y": { "Min": 0.9, "Max": 1.15 } } },
+    "55": { "Color": "#44AA00", "Opacity": 0.8 },
+    "70": { "Color": "#338800", "Scale": { "X": { "Min": 1.1, "Max": 1.4 }, "Y": { "Min": 1.1, "Max": 1.4 } } },
+    "85": { "Color": "#226600", "Opacity": 0.35 },
+    "100": { "Color": "#114400", "Opacity": 0.0 }
+  }
+}

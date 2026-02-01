@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Debris.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Debris.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

@@ -1,0 +1,13 @@
+{
+  "name": "Ember Float",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.25, "Max": 0.45 }, "Y": { "Min": 0.25, "Max": 0.45 } }, "Opacity": 0.8, "Color": "#FF8822", "Rotation": { "Z": { "Min": -8.0, "Max": 8.0 } } },
+    "15": { "Opacity": 1.0, "Color": "#FF6611", "Scale": { "X": { "Min": 0.35, "Max": 0.55 }, "Y": { "Min": 0.35, "Max": 0.55 } } },
+    "30": { "Opacity": 0.75, "Color": "#EE4400", "Rotation": { "Z": { "Min": -18.0, "Max": 18.0 } } },
+    "48": { "Opacity": 0.9, "Color": "#FF7711", "Scale": { "X": { "Min": 0.4, "Max": 0.65 }, "Y": { "Min": 0.4, "Max": 0.65 } } },
+    "62": { "Opacity": 0.55, "Color": "#CC3300" },
+    "75": { "Opacity": 0.7, "Color": "#DD5500", "Rotation": { "Z": { "Min": -30.0, "Max": 30.0 } } },
+    "88": { "Opacity": 0.3, "Color": "#882200", "Scale": { "X": { "Min": 0.5, "Max": 0.75 }, "Y": { "Min": 0.5, "Max": 0.75 } } },
+    "100": { "Opacity": 0.0, "Color": "#441100" }
+  }
+}

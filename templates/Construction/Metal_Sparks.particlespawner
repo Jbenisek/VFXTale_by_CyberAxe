@@ -22,7 +22,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Spark.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Spark.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Crystal.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Crystal.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

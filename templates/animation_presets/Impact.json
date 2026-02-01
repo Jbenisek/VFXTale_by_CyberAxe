@@ -1,0 +1,12 @@
+{
+  "name": "Impact",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.0, "Max": 0.0 }, "Y": { "Min": 0.0, "Max": 0.0 } }, "Opacity": 0.0 },
+    "3": { "Scale": { "X": { "Min": 1.0, "Max": 1.3 }, "Y": { "Min": 1.0, "Max": 1.3 } }, "Opacity": 1.0, "Color": "#FFFFFF" },
+    "8": { "Scale": { "X": { "Min": 0.85, "Max": 1.05 }, "Y": { "Min": 0.85, "Max": 1.05 } }, "Color": "#FFEECC" },
+    "20": { "Opacity": 0.85, "Color": "#FFDDAA" },
+    "45": { "Opacity": 0.5 },
+    "70": { "Opacity": 0.25, "Scale": { "X": { "Min": 0.9, "Max": 1.1 }, "Y": { "Min": 0.9, "Max": 1.1 } } },
+    "100": { "Opacity": 0.0 }
+  }
+}

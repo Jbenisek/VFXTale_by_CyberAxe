@@ -8,7 +8,7 @@
   "TotalParticles": { "Min": 1, "Max": 1 },
   "CameraOffset": -0.4,
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Slash.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Slash.png",
     "ScaleRatioConstraint": "None",
     "SoftParticles": "Disable",
     "Animation": {

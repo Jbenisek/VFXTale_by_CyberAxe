@@ -20,7 +20,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Dust.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Dust.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

@@ -1,0 +1,11 @@
+{
+  "name": "Explode",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.1, "Max": 0.2 }, "Y": { "Min": 0.1, "Max": 0.2 } }, "Opacity": 0.9, "Rotation": { "Z": { "Min": -10.0, "Max": 10.0 } } },
+    "8": { "Scale": { "X": { "Min": 1.6, "Max": 2.2 }, "Y": { "Min": 1.6, "Max": 2.2 } }, "Opacity": 1.0 },
+    "20": { "Scale": { "X": { "Min": 2.2, "Max": 2.8 }, "Y": { "Min": 2.2, "Max": 2.8 } }, "Opacity": 0.85 },
+    "40": { "Scale": { "X": { "Min": 2.6, "Max": 3.2 }, "Y": { "Min": 2.6, "Max": 3.2 } }, "Opacity": 0.5, "Rotation": { "Z": { "Min": -20.0, "Max": 20.0 } } },
+    "65": { "Opacity": 0.2 },
+    "100": { "Scale": { "X": { "Min": 3.0, "Max": 3.8 }, "Y": { "Min": 3.0, "Max": 3.8 } }, "Opacity": 0.0 }
+  }
+}

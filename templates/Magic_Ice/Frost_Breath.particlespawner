@@ -16,7 +16,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Smoke/Smoke_Dense.png",
+    "Texture": "Particles/Textures/Smoke/VFXTale_Smoke_Dense.png",
     "FrameSize": { "Width": 64, "Height": 64 },
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {

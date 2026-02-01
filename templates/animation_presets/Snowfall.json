@@ -1,0 +1,12 @@
+{
+  "name": "Snowfall",
+  "keyframes": {
+    "0": { "Opacity": 0.0, "Color": "#FFFFFF", "Scale": { "X": { "Min": 0.6, "Max": 0.9 }, "Y": { "Min": 0.6, "Max": 0.9 } }, "Rotation": { "Z": { "Min": -20.0, "Max": 20.0 } } },
+    "12": { "Opacity": 0.8, "Color": "#EEEEFF" },
+    "30": { "Opacity": 1.0, "Color": "#DDDDFF", "Scale": { "X": { "Min": 0.55, "Max": 0.85 }, "Y": { "Min": 0.55, "Max": 0.85 } } },
+    "55": { "Color": "#CCDDFF", "Scale": { "X": { "Min": 0.45, "Max": 0.75 }, "Y": { "Min": 0.45, "Max": 0.75 } }, "Rotation": { "Z": { "Min": -60.0, "Max": 60.0 } } },
+    "75": { "Opacity": 0.7, "Color": "#BBCCEE" },
+    "90": { "Opacity": 0.3, "Color": "#AABBDD", "Scale": { "X": { "Min": 0.3, "Max": 0.55 }, "Y": { "Min": 0.3, "Max": 0.55 } } },
+    "100": { "Opacity": 0.0, "Rotation": { "Z": { "Min": -90.0, "Max": 90.0 } } }
+  }
+}

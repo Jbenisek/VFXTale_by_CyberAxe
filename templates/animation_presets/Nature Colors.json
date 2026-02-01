@@ -1,0 +1,12 @@
+{
+  "name": "Nature Colors",
+  "keyframes": {
+    "0": { "Color": "#AAFF66", "Opacity": 0.7, "Scale": { "X": { "Min": 0.4, "Max": 0.6 }, "Y": { "Min": 0.4, "Max": 0.6 } } },
+    "15": { "Color": "#88EE44", "Opacity": 1.0, "Scale": { "X": { "Min": 0.7, "Max": 0.9 }, "Y": { "Min": 0.7, "Max": 0.9 } } },
+    "35": { "Color": "#66CC22" },
+    "55": { "Color": "#449900", "Scale": { "X": { "Min": 0.95, "Max": 1.15 }, "Y": { "Min": 0.95, "Max": 1.15 } } },
+    "75": { "Color": "#337700", "Opacity": 0.6 },
+    "90": { "Color": "#225500", "Opacity": 0.25 },
+    "100": { "Color": "#1A4400", "Opacity": 0.0 }
+  }
+}

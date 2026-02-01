@@ -1,0 +1,12 @@
+{
+  "name": "Dust Settle",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.5, "Max": 0.8 }, "Y": { "Min": 0.5, "Max": 0.8 } }, "Opacity": 0.7, "Color": "#CCBB99", "Rotation": { "Z": { "Min": -10.0, "Max": 10.0 } } },
+    "15": { "Opacity": 0.85, "Color": "#BBAA88", "Scale": { "X": { "Min": 0.55, "Max": 0.85 }, "Y": { "Min": 0.55, "Max": 0.85 } } },
+    "35": { "Opacity": 0.7, "Color": "#AA9977" },
+    "55": { "Opacity": 0.5, "Color": "#998866", "Scale": { "X": { "Min": 0.4, "Max": 0.65 }, "Y": { "Min": 0.4, "Max": 0.65 } }, "Rotation": { "Z": { "Min": -25.0, "Max": 25.0 } } },
+    "75": { "Opacity": 0.25, "Color": "#887755", "Scale": { "X": { "Min": 0.25, "Max": 0.45 }, "Y": { "Min": 0.25, "Max": 0.45 } } },
+    "90": { "Opacity": 0.08, "Color": "#776644" },
+    "100": { "Opacity": 0.0, "Scale": { "X": { "Min": 0.15, "Max": 0.3 }, "Y": { "Min": 0.15, "Max": 0.3 } } }
+  }
+}

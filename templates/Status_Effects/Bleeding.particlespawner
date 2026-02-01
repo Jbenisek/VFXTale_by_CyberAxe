@@ -22,7 +22,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Liquid/Droplet.png",
+    "Texture": "Particles/Textures/Liquid/VFXTale_Droplet.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

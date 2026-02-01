@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Star.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Star.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

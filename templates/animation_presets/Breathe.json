@@ -1,0 +1,10 @@
+{
+  "name": "Breathe",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.75, "Max": 0.85 }, "Y": { "Min": 0.75, "Max": 0.85 } }, "Opacity": 0.5 },
+    "28": { "Scale": { "X": { "Min": 1.08, "Max": 1.22 }, "Y": { "Min": 1.08, "Max": 1.22 } }, "Opacity": 0.92 },
+    "50": { "Scale": { "X": { "Min": 0.78, "Max": 0.88 }, "Y": { "Min": 0.78, "Max": 0.88 } }, "Opacity": 0.52 },
+    "75": { "Scale": { "X": { "Min": 1.02, "Max": 1.16 }, "Y": { "Min": 1.02, "Max": 1.16 } }, "Opacity": 0.88 },
+    "100": { "Scale": { "X": { "Min": 0.75, "Max": 0.85 }, "Y": { "Min": 0.75, "Max": 0.85 } }, "Opacity": 0.5 }
+  }
+}

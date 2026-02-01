@@ -1,0 +1,10 @@
+{
+  "name": "Shrink",
+  "keyframes": {
+    "0": { "Opacity": 0.65, "Scale": { "X": { "Min": 1.4, "Max": 1.8 }, "Y": { "Min": 1.4, "Max": 1.8 } } },
+    "12": { "Opacity": 1.0, "Scale": { "X": { "Min": 1.2, "Max": 1.45 }, "Y": { "Min": 1.2, "Max": 1.45 } } },
+    "45": { "Scale": { "X": { "Min": 0.7, "Max": 0.9 }, "Y": { "Min": 0.7, "Max": 0.9 } } },
+    "78": { "Opacity": 0.45, "Scale": { "X": { "Min": 0.18, "Max": 0.32 }, "Y": { "Min": 0.18, "Max": 0.32 } } },
+    "100": { "Opacity": 0.0, "Scale": { "X": { "Min": 0.0, "Max": 0.05 }, "Y": { "Min": 0.0, "Max": 0.05 } } }
+  }
+}

@@ -6,7 +6,7 @@
   "SpawnBurst": true,
   "TotalParticles": { "Min": 1, "Max": 1 },
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Glow.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Glow.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

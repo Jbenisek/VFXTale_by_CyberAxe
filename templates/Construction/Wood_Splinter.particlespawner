@@ -22,7 +22,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Debris/Splinter.png",
+    "Texture": "Particles/Textures/Debris/VFXTale_Splinter.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

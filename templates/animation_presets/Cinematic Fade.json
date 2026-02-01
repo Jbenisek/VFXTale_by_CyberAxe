@@ -1,0 +1,16 @@
+{
+  "name": "Cinematic Fade",
+  "keyframes": {
+    "0": { "Opacity": 0.0 },
+    "5": { "Opacity": 0.15 },
+    "12": { "Opacity": 0.4 },
+    "20": { "Opacity": 0.7 },
+    "30": { "Opacity": 0.9 },
+    "40": { "Opacity": 1.0 },
+    "65": { "Opacity": 1.0 },
+    "78": { "Opacity": 0.7 },
+    "88": { "Opacity": 0.35 },
+    "95": { "Opacity": 0.1 },
+    "100": { "Opacity": 0.0 }
+  }
+}

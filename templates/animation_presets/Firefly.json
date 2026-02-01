@@ -1,0 +1,15 @@
+{
+  "name": "Firefly",
+  "keyframes": {
+    "0": { "Opacity": 0.0, "Color": "#FFEE88", "Scale": { "X": { "Min": 0.3, "Max": 0.5 }, "Y": { "Min": 0.3, "Max": 0.5 } } },
+    "10": { "Opacity": 0.7, "Color": "#FFDD55" },
+    "22": { "Opacity": 0.15, "Scale": { "X": { "Min": 0.25, "Max": 0.4 }, "Y": { "Min": 0.25, "Max": 0.4 } } },
+    "35": { "Opacity": 0.9, "Color": "#FFCC44", "Scale": { "X": { "Min": 0.4, "Max": 0.6 }, "Y": { "Min": 0.4, "Max": 0.6 } } },
+    "48": { "Opacity": 0.1 },
+    "60": { "Opacity": 0.85, "Color": "#FFBB33", "Scale": { "X": { "Min": 0.35, "Max": 0.55 }, "Y": { "Min": 0.35, "Max": 0.55 } } },
+    "72": { "Opacity": 0.2 },
+    "82": { "Opacity": 0.65, "Color": "#FFAA22" },
+    "92": { "Opacity": 0.1 },
+    "100": { "Opacity": 0.0 }
+  }
+}

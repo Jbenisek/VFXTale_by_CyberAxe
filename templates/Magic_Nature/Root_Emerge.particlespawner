@@ -22,7 +22,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Rock.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Rock.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

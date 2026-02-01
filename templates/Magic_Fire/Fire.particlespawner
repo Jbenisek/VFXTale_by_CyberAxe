@@ -17,7 +17,7 @@
   },
   "Attractors": [{ "DampingMultiplier": { "X": 0.7, "Y": 1.0, "Z": 0.7 } }],
   "Particle": {
-    "Texture": "Particles/Textures/Fire/Flame.png",
+    "Texture": "Particles/Textures/Fire/VFXTale_Flame.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": { "Scale": { "X": { "Min": 0.2, "Max": 0.4 } }, "Opacity": 0.0, "Color": "#FFFF00" },

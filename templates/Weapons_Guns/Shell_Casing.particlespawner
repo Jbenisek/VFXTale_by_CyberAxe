@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Cylinder.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Cylinder.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

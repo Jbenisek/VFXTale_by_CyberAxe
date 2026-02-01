@@ -1,0 +1,13 @@
+{
+  "name": "Dark Magic",
+  "keyframes": {
+    "0": { "Color": "#9944FF", "Opacity": 0.0, "Scale": { "X": { "Min": 0.15, "Max": 0.3 }, "Y": { "Min": 0.15, "Max": 0.3 } }, "Rotation": { "Z": { "Min": 0.0, "Max": 30.0 } } },
+    "8": { "Color": "#7733DD", "Opacity": 0.9, "Scale": { "X": { "Min": 0.7, "Max": 1.0 }, "Y": { "Min": 0.7, "Max": 1.0 } } },
+    "22": { "Color": "#5522AA", "Opacity": 1.0, "Rotation": { "Z": { "Min": 40.0, "Max": 80.0 } } },
+    "40": { "Color": "#331188", "Scale": { "X": { "Min": 1.0, "Max": 1.3 }, "Y": { "Min": 1.0, "Max": 1.3 } } },
+    "58": { "Color": "#220066", "Opacity": 0.7, "Rotation": { "Z": { "Min": 90.0, "Max": 160.0 } } },
+    "75": { "Color": "#110033", "Opacity": 0.35, "Scale": { "X": { "Min": 1.2, "Max": 1.6 }, "Y": { "Min": 1.2, "Max": 1.6 } } },
+    "90": { "Color": "#0A0018", "Opacity": 0.1 },
+    "100": { "Color": "#000000", "Opacity": 0.0 }
+  }
+}

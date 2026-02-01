@@ -16,7 +16,7 @@
     "Pitch": { "Min": 85.0, "Max": 95.0 }
   },
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Ring.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Ring.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

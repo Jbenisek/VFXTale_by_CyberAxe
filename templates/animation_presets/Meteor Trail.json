@@ -1,0 +1,12 @@
+{
+  "name": "Meteor Trail",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.6, "Max": 0.9 }, "Y": { "Min": 0.6, "Max": 0.9 } }, "Opacity": 1.0, "Color": "#FFCC44" },
+    "12": { "Color": "#FF9922", "Scale": { "X": { "Min": 0.55, "Max": 0.8 }, "Y": { "Min": 0.55, "Max": 0.8 } } },
+    "28": { "Color": "#EE6611", "Opacity": 0.85 },
+    "45": { "Color": "#CC4400", "Opacity": 0.65, "Scale": { "X": { "Min": 0.4, "Max": 0.65 }, "Y": { "Min": 0.4, "Max": 0.65 } } },
+    "62": { "Color": "#993300", "Opacity": 0.4 },
+    "80": { "Color": "#551100", "Opacity": 0.18, "Scale": { "X": { "Min": 0.2, "Max": 0.4 }, "Y": { "Min": 0.2, "Max": 0.4 } } },
+    "100": { "Color": "#220000", "Opacity": 0.0, "Scale": { "X": { "Min": 0.05, "Max": 0.15 }, "Y": { "Min": 0.05, "Max": 0.15 } } }
+  }
+}

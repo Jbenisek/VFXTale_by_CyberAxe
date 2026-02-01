@@ -1,0 +1,16 @@
+{
+  "name": "Strobe",
+  "keyframes": {
+    "0": { "Opacity": 1.0 },
+    "10": { "Opacity": 0.0 },
+    "20": { "Opacity": 1.0 },
+    "30": { "Opacity": 0.0 },
+    "40": { "Opacity": 1.0 },
+    "50": { "Opacity": 0.0 },
+    "60": { "Opacity": 1.0 },
+    "70": { "Opacity": 0.0 },
+    "80": { "Opacity": 0.8 },
+    "90": { "Opacity": 0.0 },
+    "100": { "Opacity": 0.0 }
+  }
+}

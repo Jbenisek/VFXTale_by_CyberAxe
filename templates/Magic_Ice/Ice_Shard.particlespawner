@@ -7,7 +7,7 @@
   "LifeSpan": 2.0,
   "TrailSpawnerPositionMultiplier": 1.0,
   "Particle": {
-    "Texture": "Particles/Textures/Ice/Shard.png",
+    "Texture": "Particles/Textures/Ice/VFXTale_Shard.png",
     "ScaleRatioConstraint": "None",
     "UVOption": "RandomFlipU",
     "Animation": {

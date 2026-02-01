@@ -21,7 +21,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Arrow.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Arrow.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

@@ -1,0 +1,14 @@
+{
+  "name": "Phoenix Rise",
+  "keyframes": {
+    "0": { "Scale": { "X": { "Min": 0.15, "Max": 0.3 }, "Y": { "Min": 0.15, "Max": 0.3 } }, "Opacity": 0.0, "Color": "#CC2200", "Rotation": { "Z": { "Min": -10.0, "Max": 10.0 } } },
+    "8": { "Scale": { "X": { "Min": 0.5, "Max": 0.75 }, "Y": { "Min": 0.5, "Max": 0.75 } }, "Opacity": 0.8, "Color": "#EE4400" },
+    "18": { "Scale": { "X": { "Min": 0.8, "Max": 1.1 }, "Y": { "Min": 0.8, "Max": 1.1 } }, "Opacity": 1.0, "Color": "#FF7711", "Rotation": { "Z": { "Min": 10.0, "Max": 40.0 } } },
+    "32": { "Color": "#FFAA22", "Scale": { "X": { "Min": 1.0, "Max": 1.3 }, "Y": { "Min": 1.0, "Max": 1.3 } } },
+    "48": { "Color": "#FFCC44", "Opacity": 0.9, "Rotation": { "Z": { "Min": 30.0, "Max": 80.0 } } },
+    "62": { "Color": "#FFDD66", "Scale": { "X": { "Min": 1.2, "Max": 1.55 }, "Y": { "Min": 1.2, "Max": 1.55 } } },
+    "75": { "Color": "#FFEE88", "Opacity": 0.7, "Rotation": { "Z": { "Min": 55.0, "Max": 120.0 } } },
+    "88": { "Color": "#FFFFBB", "Opacity": 0.4, "Scale": { "X": { "Min": 1.4, "Max": 1.8 }, "Y": { "Min": 1.4, "Max": 1.8 } } },
+    "100": { "Color": "#FFFFEE", "Opacity": 0.0 }
+  }
+}

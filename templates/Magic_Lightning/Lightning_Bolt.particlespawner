@@ -11,7 +11,7 @@
     "Pitch": { "Min": 165.0, "Max": 180.0 }
   },
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Glow.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Glow.png",
     "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {

@@ -1,0 +1,13 @@
+{
+  "name": "Ember Glow",
+  "keyframes": {
+    "0": { "Color": "#FF6622", "Opacity": 0.6, "Scale": { "X": { "Min": 0.8, "Max": 1.0 }, "Y": { "Min": 0.8, "Max": 1.0 } } },
+    "15": { "Color": "#FFAA33", "Opacity": 1.0, "Scale": { "X": { "Min": 1.0, "Max": 1.15 }, "Y": { "Min": 1.0, "Max": 1.15 } } },
+    "30": { "Color": "#FF7722", "Opacity": 0.7, "Scale": { "X": { "Min": 0.85, "Max": 0.95 }, "Y": { "Min": 0.85, "Max": 0.95 } } },
+    "48": { "Color": "#FFBB44", "Opacity": 0.95, "Scale": { "X": { "Min": 1.05, "Max": 1.2 }, "Y": { "Min": 1.05, "Max": 1.2 } } },
+    "62": { "Color": "#FF5511", "Opacity": 0.55 },
+    "78": { "Color": "#CC3300", "Opacity": 0.75, "Scale": { "X": { "Min": 0.9, "Max": 1.05 }, "Y": { "Min": 0.9, "Max": 1.05 } } },
+    "90": { "Color": "#881100", "Opacity": 0.3 },
+    "100": { "Color": "#441100", "Opacity": 0.0 }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Fade In/Out",
+  "keyframes": {
+    "0": { "Opacity": 0.0 },
+    "12": { "Opacity": 0.7 },
+    "22": { "Opacity": 1.0 },
+    "78": { "Opacity": 1.0 },
+    "90": { "Opacity": 0.35 },
+    "100": { "Opacity": 0.0 }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Rainbow",
+  "keyframes": {
+    "0": { "Color": "#FF2222", "Opacity": 0.8, "Scale": { "X": { "Min": 0.9, "Max": 1.1 }, "Y": { "Min": 0.9, "Max": 1.1 } } },
+    "14": { "Color": "#FF8800", "Opacity": 1.0 },
+    "28": { "Color": "#FFDD00" },
+    "42": { "Color": "#22DD22" },
+    "56": { "Color": "#2288FF" },
+    "70": { "Color": "#6622FF" },
+    "84": { "Color": "#CC22CC" },
+    "100": { "Color": "#FF2222", "Opacity": 0.4 }
+  }
+}

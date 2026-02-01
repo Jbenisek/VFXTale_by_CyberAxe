@@ -1,0 +1,9 @@
+{
+  "name": "Rotate Right",
+  "keyframes": {
+    "0": { "Rotation": { "Z": { "Min": -15.0, "Max": 0.0 } }, "Opacity": 0.0 },
+    "10": { "Opacity": 1.0 },
+    "90": { "Opacity": 1.0 },
+    "100": { "Rotation": { "Z": { "Min": 345.0, "Max": 375.0 } }, "Opacity": 0.0 }
+  }
+}

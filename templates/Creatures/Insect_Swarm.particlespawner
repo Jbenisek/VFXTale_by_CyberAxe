@@ -21,7 +21,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Dot.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Dot.png",
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
       "0": {

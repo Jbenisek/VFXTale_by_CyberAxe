@@ -17,7 +17,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Ice/Shard.png",
+    "Texture": "Particles/Textures/Ice/VFXTale_Shard.png",
     "ScaleRatioConstraint": "None",
     "UVOption": "RandomFlipU",
     "Animation": {

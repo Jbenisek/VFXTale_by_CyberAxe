@@ -20,7 +20,7 @@
     }
   ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Bubble.png",
+    "Texture": "Particles/Textures/Basic/VFXTale_Bubble.png",
     "FrameSize": { "Width": 32, "Height": 32 },
     "ScaleRatioConstraint": "OneToOne",
     "Animation": {
