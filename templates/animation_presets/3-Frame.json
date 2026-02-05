@@ -1,0 +1,8 @@
+{
+  "name": "3-Frame",
+  "keyframes": {
+    "0": { "Opacity": 1.0 },
+    "50": { "Opacity": 1.0 },
+    "100": { "Opacity": 1.0 }
+  }
+}

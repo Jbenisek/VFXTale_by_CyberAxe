@@ -1,0 +1,87 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "LightInfluence": 0.0,
+  "CameraOffset": 0.0,
+  "MaxConcurrentParticles": 1,
+  "SpawnRate": {
+    "Min": 1.0,
+    "Max": 1.0
+  },
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "ParticleLifeSpan": {
+    "Min": 999999.0,
+    "Max": 999999.0
+  },
+  "EmitOffset": {
+    "X": {
+      "Min": 0.0,
+      "Max": 0.0
+    },
+    "Y": {
+      "Min": 0.0,
+      "Max": 0.0
+    },
+    "Z": {
+      "Min": 0.0,
+      "Max": 0.0
+    }
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0.0,
+      "Max": 0.0
+    },
+    "Yaw": {
+      "Min": 0.0,
+      "Max": 0.0
+    },
+    "Pitch": {
+      "Min": 0.0,
+      "Max": 0.0
+    }
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/VFXTale_Glow.png",
+    "FrameSize": {
+      "Width": 256,
+      "Height": 256
+    },
+    "ScaleRatioConstraint": "OneToOne",
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 1.0,
+          "Max": 1.0
+        },
+        "Y": {
+          "Min": 1.0,
+          "Max": 1.0
+        }
+      },
+      "Opacity": 1.0
+    },
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Y": {
+            "Min": 1.0,
+            "Max": 1.0
+          }
+        },
+        "Opacity": 1.0,
+        "Color": "#FFFFFF"
+      },
+      "100": {
+        "Opacity": 1.0
+      }
+    }
+  }
+}

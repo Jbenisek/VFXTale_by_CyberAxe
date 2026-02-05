@@ -3,7 +3,36 @@
 A visual particle effect editor for Hytale, built with Rust + egui + wgpu.
 Load, edit, preview, and save native Hytale `.particlespawner` and `.particlesystem` JSON files.
 
-**Current Version: 0.3.4** - Beta
+**Current Version: 0.3.11** - Beta
+
+## What's New (v0.3.6 - v0.3.11)
+
+### v0.3.11 - Apply to Animation Fix
+- **"Apply to Animation" now distributes all sprite frames** — Previously only created keyframes at 0% and 100%. Now distributes all selected frames evenly across the timeline (e.g., 8 frames → 0%, 14%, 29%, 43%, 57%, 71%, 86%, 100%)
+- **Frame selection resets on texture/frame_size change** — Previously kept stale selection when switching textures
+
+### v0.3.10 - Animation Presets & Static Plane
+- **3 simple animation presets** — "1-Frame", "2-Frame", "3-Frame" sort at top of presets list for quick access
+- **Static Plane template** — Single particle that stays forever (like a TV screen or sign), available in Ui_Feedback category and "+" dropdown menu
+- **Rain templates updated** — Billboard mode, gravity via attractor, infinite particles
+
+### v0.3.9 - Easing & Frame Index Fix (FRAUD FIX)
+- **30+ easing functions now work** — Linear, Quad, Cubic, Quart, Quint, Sine, Expo, Circ, Back, Elastic, Bounce (In/Out/InOut variants)
+- **Frame index keyframe interpolation** — Sprite sheet animations now actually animate across keyframes (was broken)
+
+### v0.3.8 - Rotation Interpolation Fix (FRAUD FIX)
+- **Rotation keyframes now interpolate** — Previously rotation was set once at spawn and never changed. Now properly lerps between keyframe rotation values
+
+### v0.3.7 - FlipU/FlipV & Frame Size Improvements
+- **FlipU and FlipV UV options now work** — Previously did nothing (fraud)
+- **Auto-set Frame Size on texture selection** — Automatically sets width/height to texture dimensions
+- **Frame Size max increased to 16K** — Was 512, then 8192, now 16384
+- **DragValue input fixed** — No longer accepts partial input while typing
+
+### v0.3.6 - Texture Loading & Frame Size Fixes
+- **Browse button texture selection fixed** — Textures selected via Browse now load correctly
+- **Frame Size max increased to 8K** — Was artificially capped at 512
+- **"File not found" false positive fixed** — UV atlas frame selector no longer hidden for valid textures
 
 ## Features
 
@@ -27,15 +56,16 @@ Load, edit, preview, and save native Hytale `.particlespawner` and `.particlesys
 ### Keyframe Animation
 - **Visual Timeline** — diamond keyframes on a percentage-based timeline, colored by keyframe color
 - **9-Property Grid** — Time, Opacity, Color, Scale X/Y, Rotation Z, Frame Index, Easing, Curve Preview
-- **6 Easing Types** — Linear, EaseIn, EaseOut, EaseInOut, BounceOut, ElasticOut with curve preview
+- **30+ Easing Types** — Linear, Quad, Cubic, Quart, Quint, Sine, Expo, Circ, Back, Elastic, Bounce (In/Out/InOut variants) with curve preview
 - **Global Scale Multiplier** — proportionally scale all keyframe Scale values (0.1x–3.0x)
 - **Global Color Picker** — set color on all keyframes at once
-- **52 Animation Presets** — Presets with organic min/max variation across 7 categories:
+- **55 Animation Presets** — Presets with organic min/max variation across 7 categories:
+  - Quick Access (3): 1-Frame, 2-Frame, 3-Frame
   - Opacity (6), Scale (5), Squash/Stretch (3), Rotation (6), Color (9), Combined (16), Action (7)
 - **Animation Preset Browser** — search, sort, apply, save, and delete custom presets
 
 ### Template Library
-- **226 Particle Templates** across 27 categories:
+- **227 Particle Templates** across 28 categories:
   - Combat (Melee, Ranged), Magic (Fire, Ice, Lightning, Earth, Water, Nature, Light, Dark)
   - Status Effects, Environment, UI/Feedback, Space, Steampunk, Weapons
   - Smoke, Atmospheric, Clouds, Weather, Storms, Space Weather

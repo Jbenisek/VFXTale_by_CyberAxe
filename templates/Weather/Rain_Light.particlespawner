@@ -1,43 +1,125 @@
 {
   "RenderMode": "BlendLinear",
-  "ParticleRotationInfluence": "Velocity",
-  "LinearFiltering": true,
-  "MaxConcurrentParticles": 200,
-  "ParticleLifeSpan": { "Min": 0.3, "Max": 0.5 },
-  "SpawnRate": { "Min": 200.0, "Max": 300.0 },
+  "ParticleRotationInfluence": "Billboard",
+  "LightInfluence": 0.0,
+  "CameraOffset": 0.0,
+  "MaxConcurrentParticles": 300,
+  "SpawnRate": {
+    "Min": 400.0,
+    "Max": 600.0
+  },
+  "TotalParticles": {
+    "Min": -1,
+    "Max": -1
+  },
+  "ParticleLifeSpan": {
+    "Min": 0.3,
+    "Max": 5.4839654
+  },
   "EmitOffset": {
-    "X": { "Min": -8.0, "Max": 8.0 },
-    "Y": { "Min": 6.0, "Max": 10.0 },
-    "Z": { "Min": -8.0, "Max": 8.0 }
+    "X": {
+      "Min": -5.0,
+      "Max": 5.0
+    },
+    "Y": {
+      "Min": 6.0,
+      "Max": 10.0
+    },
+    "Z": {
+      "Min": -5.0,
+      "Max": 5.0
+    }
   },
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "TrailSpawnerRotationMultiplier": 1.0,
   "InitialVelocity": {
-    "Speed": { "Min": -15.0, "Max": -22.0 },
-    "Yaw": { "Min": 90.0, "Max": 90.0 },
-    "Pitch": { "Min": 80.0, "Max": 85.0 }
+    "Speed": {
+      "Min": 0.0,
+      "Max": 0.0
+    },
+    "Yaw": {
+      "Min": 88.0,
+      "Max": 92.0
+    },
+    "Pitch": {
+      "Min": 170.0,
+      "Max": 180.0
+    }
   },
-  "ParticleCollision": {
-    "BlockType": "All",
-    "Action": "LastFrame"
-  },
+  "UseEmitDirection": true,
+  "VelocityStretchMultiplier": 0.0,
+  "Attractors": [
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RadialAxis": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Radius": 0.0,
+      "RadialAcceleration": 0.0,
+      "RadialTangentAcceleration": 0.0,
+      "RadialImpulse": 0.0,
+      "RadialTangentImpulse": 0.0,
+      "LinearAcceleration": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "LinearImpulse": {
+        "X": 0.0,
+        "Y": -5.0,
+        "Z": 0.0
+      },
+      "DampingMultiplier": {},
+      "TrailPositionMultiplier": 1.0
+    }
+  ],
   "Particle": {
     "Texture": "Particles/Textures/Weather/VFXTale_Raindrop.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 64
+    },
     "ScaleRatioConstraint": "None",
-    "Animation": {
-      "0": {
-        "Scale": { "X": { "Min": 0.015, "Max": 0.025 }, "Y": { "Min": 0.1, "Max": 0.18 } },
-        "Opacity": 0.0,
-        "Color": "#87CEEB"
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.02,
+          "Max": 0.03
+        },
+        "Y": {
+          "Min": 0.3,
+          "Max": 0.5
+        }
       },
+      "Opacity": 0.6
+    },
+    "Animation": {
       "15": {
-        "Opacity": 0.5
+        "Opacity": 0.7
       },
       "100": {
-        "Opacity": 0.4
+        "Opacity": 0.5
+      },
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.02,
+            "Max": 0.03
+          },
+          "Y": {
+            "Min": 0.3,
+            "Max": 0.5
+          }
+        },
+        "Opacity": 0.0,
+        "Color": "#87CEEB"
       }
-    },
-    "InitialAnimationFrame": {
-      "Scale": { "X": { "Min": 0.015, "Max": 0.025 }, "Y": { "Min": 0.1, "Max": 0.18 } },
-      "Opacity": 0.0
     }
   }
 }
