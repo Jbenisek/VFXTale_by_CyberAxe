@@ -3,9 +3,52 @@
 A visual particle effect editor for Hytale, built with Rust + egui + wgpu.
 Load, edit, preview, and save native Hytale `.particlespawner` and `.particlesystem` JSON files.
 
-**Current Version: 0.3.11** - Beta
+**Current Version: 0.3.19** - Beta
 
-## What's New (v0.3.6 - v0.3.11)
+## What's New (v0.3.6 - v0.3.19)
+
+### v0.3.19 - Batch Tools Improvements
+- **Batch Tools floating window** — BATCH TOOLS now opens as a floating popup window instead of inline, no longer consumes entire screen
+- **BatchTarget Min/Max selector** — Scale X, Scale Y, Rotation, and Frame batch operations can now target Min only, Max only, or Both (preserves untargeted value)
+- **hytale_slider typed input fix** — DragValue number box input in Initial Frame and Collision Frame Scale X/Y now correctly triggers changes
+
+### v0.3.18 - Batch Tools & Generate
+- **Batch Edit** — Apply Set/Add/Multiply/Random across ALL keyframes for Opacity, Scale X, Scale Y, Rotation, and Frame
+- **Generate Loop** — Repeat animation pattern N times across 0-100% timeline with optional jitter and randomize
+- **Generate FPS** — Create keyframes from frame count + FPS + lifetime, auto-placing with incrementing frame index
+
+### v0.3.17 - System Connection Fixes
+- **System load connected_spawners fix** — All spawner tabs now correctly start enabled when loading a system file
+- **New/duplicated/template spawners auto-connect** — New spawner tabs are automatically connected when a system is open
+- **UV Motion Strength fix** — Strength values now correctly divided by 100 (Hytale uses percentages)
+
+### v0.3.16 - System Spawner Reference Fixes
+- **Spawner rename syncs to system** — Renaming a spawner tab updates the SpawnerReference.spawner_id in the system
+- **Save/Export preserves SpawnerReference overrides** — Position, rotation, and data overrides no longer lost on save
+- **Disconnected spawner management** — Disconnected spawners stop simulating, tabs dim visually, right-click Enable/Disable menu
+
+### v0.3.15 - Duplicate Tab & Backup
+- **Duplicate Tab** — Right-click a spawner tab to duplicate it with all settings
+- **Backup to Zip** — File menu option to zip entire mod structure (spawners, system, textures)
+- **SoftParticlesFadeFactor range fix** — Slider now correctly capped at 2.0 (Hytale maximum)
+
+### v0.3.14 - Tab Bar & Performance Fixes
+- **Tab bar scrolling** — Tabs no longer overflow off-screen with many spawners open (horizontal scroll + mouse wheel)
+- **Blueprint performance fix** — Blueprint view with 50+ keyframes no longer drops to 1 FPS
+- **Keyframe deselect** — Click empty space in animation editor to deselect
+- **Flow map error handling** — Missing distortion textures show error instead of silent failure
+- **Soft particles visibility fix** — Soft particles no longer nearly invisible in editor preview
+- **Initial frame scale enforcement** — Game forces initial frame scale across all frames, editor now matches
+- **Precision improvements** — Keyframe sliders, DragValue, and global scale now use 0.01 precision
+- **New keyframe inheritance** — New animation frames inherit global color and scale settings
+
+### v0.3.13 - Import & System Fixes
+- **FrameSize auto-resolution** — Frame size automatically set from texture dimensions on import (no more "cut in half" particles)
+- **SpawnerReference overrides applied** — Position, rotation, and data overrides from system references now work in simulation
+- **UVMotion.AddRandomUVOffset preserved** — Field no longer silently dropped on import/save
+
+### v0.3.12 - Burst+Loop Fix
+- **Burst+Loop coexistence** — Beam spawners (Flamethrower, etc.) no longer broken on import. SpawnBurst with Loop is a valid Hytale pattern
 
 ### v0.3.11 - Apply to Animation Fix
 - **"Apply to Animation" now distributes all sprite frames** — Previously only created keyframes at 0% and 100%. Now distributes all selected frames evenly across the timeline (e.g., 8 frames → 0%, 14%, 29%, 43%, 57%, 71%, 86%, 100%)
