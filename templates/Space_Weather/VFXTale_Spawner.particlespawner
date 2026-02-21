@@ -1,0 +1,275 @@
+{
+  "$VFXTale": {
+    "blueprint": {
+      "nodes": {
+        "appearance_3": [
+          100.0,
+          540.0
+        ],
+        "attractor_8": [
+          700.0,
+          306.0
+        ],
+        "emission_6": [
+          400.0,
+          181.0
+        ],
+        "initialframe_0": [
+          100.0,
+          184.0
+        ],
+        "keyframe_28468": [
+          -172.0,
+          863.0
+        ],
+        "keyframe_28469": [
+          0.6199951171875,
+          863.0
+        ],
+        "keyframe_28470": [
+          173.239990234375,
+          863.0
+        ],
+        "keyframe_28471": [
+          345.8599853515625,
+          863.0
+        ],
+        "keyframe_28472": [
+          518.47998046875,
+          863.0
+        ],
+        "keyframe_28473": [
+          691.0999755859375,
+          863.0
+        ],
+        "keyframe_28474": [
+          863.719970703125,
+          863.0
+        ],
+        "keyframe_28475": [
+          1061.0,
+          863.0
+        ],
+        "particle_1": [
+          100.0,
+          300.0
+        ],
+        "render_4": [
+          100.0,
+          670.0
+        ],
+        "spatial_9": [
+          700.0,
+          428.0
+        ],
+        "spawner_5": [
+          400.0,
+          300.0
+        ],
+        "velocity_7": [
+          700.0,
+          196.0
+        ]
+      },
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "zoom": 1.0
+    }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": {
+        "X": 0.9950000047683716,
+        "Y": 0.9950000047683716,
+        "Z": 0.9950000047683716
+      },
+      "LinearAcceleration": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.10000000149011612
+      },
+      "LinearImpulse": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RadialAcceleration": -10.0,
+      "RadialAxis": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RadialImpulse": 1.0,
+      "RadialTangentAcceleration": -1.0,
+      "RadialTangentImpulse": 0.0,
+      "Radius": 1.0,
+      "TrailPositionMultiplier": 1.0
+    }
+  ],
+  "CameraOffset": 0.0,
+  "EmitOffset": {
+    "X": {
+      "Max": 12.0,
+      "Min": -12.0
+    },
+    "Y": {
+      "Max": 8.0,
+      "Min": -5.0
+    },
+    "Z": {
+      "Max": 12.0,
+      "Min": -12.0
+    }
+  },
+  "InitialVelocity": {
+    "Pitch": {
+      "Max": 110.0,
+      "Min": 70.0
+    },
+    "Speed": {
+      "Max": 0.0,
+      "Min": 0.0
+    },
+    "Yaw": {
+      "Max": 0.0,
+      "Min": 0.0
+    }
+  },
+  "LightInfluence": 0.0,
+  "LinearFiltering": true,
+  "MaxConcurrentParticles": 150,
+  "Particle": {
+    "Animation": {
+      "0": {
+        "Color": "#FF2222",
+        "Opacity": 0.800000011920929,
+        "Rotation": {
+          "Z": {
+            "Max": 0.0,
+            "Min": 0.0
+          }
+        },
+        "Scale": {
+          "X": {
+            "Max": 1.100000023841858,
+            "Min": 0.8999999761581421
+          },
+          "Y": {
+            "Max": 1.100000023841858,
+            "Min": 0.8999999761581421
+          }
+        }
+      },
+      "100": {
+        "Color": "#FF2222",
+        "Opacity": 0.4000000059604645,
+        "Rotation": {
+          "Z": {
+            "Max": 0.0,
+            "Min": 0.0
+          }
+        }
+      },
+      "14": {
+        "Color": "#FF8800",
+        "Opacity": 1.0,
+        "Rotation": {
+          "Z": {
+            "Max": 0.0,
+            "Min": 0.0
+          }
+        }
+      },
+      "28": {
+        "Color": "#FFDD00",
+        "Rotation": {
+          "Z": {
+            "Max": 0.0,
+            "Min": 0.0
+          }
+        }
+      },
+      "42": {
+        "Color": "#22DD22",
+        "Rotation": {
+          "Z": {
+            "Max": 0.0,
+            "Min": 0.0
+          }
+        }
+      },
+      "56": {
+        "Color": "#2288FF",
+        "Rotation": {
+          "Z": {
+            "Max": 0.0,
+            "Min": 0.0
+          }
+        }
+      },
+      "70": {
+        "Color": "#6622FF",
+        "Rotation": {
+          "Z": {
+            "Max": 0.0,
+            "Min": 0.0
+          }
+        }
+      },
+      "84": {
+        "Color": "#CC22CC",
+        "Rotation": {
+          "Z": {
+            "Max": 0.0,
+            "Min": 0.0
+          }
+        }
+      }
+    },
+    "FrameSize": {
+      "Height": 1440,
+      "Width": 2560
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 0.0,
+      "Rotation": {
+        "Z": {
+          "Max": 360.0,
+          "Min": 0.0
+        }
+      },
+      "Scale": {
+        "X": {
+          "Max": 0.800000011920929,
+          "Min": 0.30000001192092896
+        }
+      }
+    },
+    "ScaleRatioConstraint": "OneToOne",
+    "Texture": "Particles/Textures/Basic/VFXTale_Logo.png"
+  },
+  "ParticleLifeSpan": {
+    "Max": 20.0,
+    "Min": 5.0
+  },
+  "ParticleRotationInfluence": "BillboardY",
+  "RenderMode": "BlendAdd",
+  "SpawnRate": {
+    "Max": 77.67909240722656,
+    "Min": 20.950559616088867
+  },
+  "TotalParticles": {
+    "Max": -1,
+    "Min": -1
+  },
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "TrailSpawnerRotationMultiplier": 1.0,
+  "VelocityStretchMultiplier": 0.0
+}
